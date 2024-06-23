@@ -48,7 +48,7 @@ struct FoodPreview: View {
     }
     
     var hasExtras: some View {
-        Text("Standard")
+        Text(food.ingredients.isEmpty ? "Standart" : "Extras Available")
             .font(.footnote)
             .foregroundStyle(.gray)
     }
@@ -61,6 +61,6 @@ struct FoodPreview: View {
     }
 }
 
-//#Preview {
-//    FoodPreview(food: .previewData)
-//}
+#Preview {
+    FoodPreview(food: .doubleDouble)
+}

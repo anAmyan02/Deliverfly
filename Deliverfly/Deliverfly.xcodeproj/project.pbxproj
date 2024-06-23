@@ -17,6 +17,8 @@
 		6507E78E2C2063E5003400FB /* FoodPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6507E78D2C2063E5003400FB /* FoodPreview.swift */; };
 		6507E7902C2069A3003400FB /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6507E78F2C2069A3003400FB /* RestaurantView.swift */; };
 		6507E7922C2069D6003400FB /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6507E7912C2069D6003400FB /* Restaurant.swift */; };
+		6507E7942C2848C4003400FB /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6507E7932C2848C4003400FB /* Navigation.swift */; };
+		6507E7962C285496003400FB /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6507E7952C285496003400FB /* Ingredient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		6507E78D2C2063E5003400FB /* FoodPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPreview.swift; sourceTree = "<group>"; };
 		6507E78F2C2069A3003400FB /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
 		6507E7912C2069D6003400FB /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		6507E7932C2848C4003400FB /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		6507E7952C285496003400FB /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				6507E78D2C2063E5003400FB /* FoodPreview.swift */,
 				6507E78F2C2069A3003400FB /* RestaurantView.swift */,
 				6507E7912C2069D6003400FB /* Restaurant.swift */,
+				6507E7932C2848C4003400FB /* Navigation.swift */,
+				6507E7952C285496003400FB /* Ingredient.swift */,
 			);
 			path = Deliverfly;
 			sourceTree = "<group>";
@@ -159,10 +165,12 @@
 			files = (
 				6507E7882C1EC05A003400FB /* HomeView.swift in Sources */,
 				6507E78A2C1EC678003400FB /* RestaurantPreview.swift in Sources */,
+				6507E7962C285496003400FB /* Ingredient.swift in Sources */,
 				6507E78C2C206232003400FB /* Food.swift in Sources */,
 				6507E7862C1EBFD1003400FB /* SplashView.swift in Sources */,
 				6507E7922C2069D6003400FB /* Restaurant.swift in Sources */,
 				6507E78E2C2063E5003400FB /* FoodPreview.swift in Sources */,
+				6507E7942C2848C4003400FB /* Navigation.swift in Sources */,
 				6507E7722C1EB2CE003400FB /* DeliverflyApp.swift in Sources */,
 				6507E7902C2069A3003400FB /* RestaurantView.swift in Sources */,
 			);

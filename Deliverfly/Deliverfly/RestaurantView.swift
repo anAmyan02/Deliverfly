@@ -31,6 +31,12 @@ struct RestaurantView: View {
             }
             .padding(.horizontal)
         }
+        .sheet(item: $selectedFood) {
+            item in FoodView(food: item)
+                .presentationDetents(item.ingredients.isEmpty ? [.fraction(0.63)] : [.fraction(0.93)])
+                .presentationDragIndicator(.visible)
+                .presentationCornerRadius(30)
+        }
     }
     
     var backButton: some View {
